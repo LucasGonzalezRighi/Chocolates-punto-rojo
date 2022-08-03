@@ -1,0 +1,24 @@
+@media only screen and (min-width: 481px) and (max-width: 960px) {
+    .seccion-1-con-leche {
+        background-color: #B94E02;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 17%;
+        flex-wrap: wrap;
+        .fondo-imagen-con-leche {
+            display: flex;
+            justify-content: center;
+            width: 33%;
+            height: 300px;
+
+            .imagen-2-con-leche {
+                border-radius: 30px;
+                width: 20%;
+                height: 175px;
+                margin: 0px;
+                position: absolute;
+                margin-top: 10%;
+            }
+        }
+    }
+}
